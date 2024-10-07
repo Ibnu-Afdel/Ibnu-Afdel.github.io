@@ -4,8 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IbnuAfdel</title>
+    <style>
+        body{
+            margin: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: bisque;
+        }
+
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 50px;
+        }
+        .username{
+            font-size: larger;
+            font-weight: 900;
+        }
+        .username a {
+            color: rgb(3, 73, 90);
+            text-decoration: none;
+        }
+
+        .resume{
+            font-size: larger;
+            border: 2px red dotted;
+            padding: 5px;
+            color: rgb(87, 86, 86);
+        }
+        .resume a{
+            text-decoration: none;
+            color: rgb(150, 0, 20);
+        }
+        
+
+        main{
+            display: flex;
+            padding: 5px;
+            justify-content: center;
+            align-items: center;
+        }
+        .maindiv{
+            width: 700px;
+
+        }
+
+        .maindiv p a{
+            color: rgb(0, 102, 255);
+        }
+
+    </style>
 </head>
 <body>
-    my website
+    <header class="header">
+        <div class="username">
+            <a href="index.html">IbnuAfdel</a>
+        </div>
+        <div class="resume">
+           <a href="about.html">About</a> 
+        </div>
+    </header>
+
+    <main>
+        <div class="maindiv">
+            <h1>
+                Introduction
+            </h1>
+            <p>
+                Hello, I'm Abubeker. I'm currently learning Laravel with the TALL stack 
+                and expanding my skills by diving into React, aiming to become a full-stack
+                 developer. This page is a work in progress, but for now, feel free to join 
+                 my <a href="https://t.me/IbnuAfdelDevDiary" target="_blank">Telegram channel</a> to follow my journey and daily updates.
+            </p>
+        </div>
+    </main>
 </body>
 </html>
