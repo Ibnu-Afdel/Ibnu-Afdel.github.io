@@ -4,104 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IbnuAfdel</title>
-    <style>
-        body{
-            margin: 50px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            background-color: bisque;
-        }
-
-        .header{
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-            margin-bottom: 50px;
-        }
-        .username{
-            font-size: larger;
-            font-weight: 900;
-        }
-        .username a {
-            color: rgb(3, 73, 90);
-            text-decoration: none;
-        }
-
-        .headright{
-            display: flex;
-            gap: 5px;
-        }
-
-        .headright a{
-            text-decoration: none;
-        }
-
-        .resume{
-            font-size: large;
-            border: 2px gray dotted;
-            padding: 5px;
-            color: rgb(87, 86, 86);
-        }
-        .resume a {
-            color: gray;
-        }
-        
-
-        .github{
-            font-size: large;
-            border: 2px black dotted;
-            padding: 5px;
-        }
-
-        .github a{
-            color: black;
-        }
-
-        .linkdin{
-            font-size: large;
-            border: 2px blue dotted;
-            padding: 5px;
-        }
-
-        .linkdin a{
-            color: blue;
-        }
-        
-
-        main{
-            display: flex;
-            padding: 5px;
-            justify-content: center;
-            align-items: center;
-        }
-        .maindiv{
-            width: 700px;
-
-        }
-
-        .maindiv p a{
-            color: rgb(0, 102, 255);
-        }
-
-    </style>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+
     <header class="header">
         <div class="username">
             <a href="index.html">IbnuAfdel</a>
         </div>
-        <div class="headright">
+
+        <input type="checkbox" id="toggle" class="toggle">
+        <label for="toggle" class="toggle-button">&#9776;</label>
+
+        <nav class="headright">
             <div class="resume">
-                <a href="IbnuAfdel.pdf" target="_blank">Resume</a> 
-             </div>
-
-             <div class="github">
-                <a href="https://github.com/Ibnu-Afdel" target="_blank">GitHub</a> 
-             </div>
-
-             <div class="linkdin">
-                <a href="https://www.linkedin.com/in/abubeker-afdel-6362b52ab" target="_blank">LinkedIn</a> 
-             </div>
-        </div>
+                <a href="IbnuAfdel.pdf" target="_blank">Resume</a>
+            </div>
+            <div class="github">
+                <a href="https://github.com/Ibnu-Afdel" target="_blank">GitHub</a>
+            </div>
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/in/abubeker-afdel-6362b52ab" target="_blank">LinkedIn</a>
+            </div>
+        </nav>
     </header>
 
     <main>
