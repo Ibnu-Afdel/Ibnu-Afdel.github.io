@@ -1,30 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <style>
-        body{
-            margin: 50px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            background-color: bisque;
-        }
-
-        .backButton{
-            padding: 6px;
-            background-color: burlywood;
-            color: rgb(51, 32, 32);
-            font-weight: 500;
-            border-radius: 4px;
-            border: none;
-            text-decoration: none;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Ibnu Afdel</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    My Personal Webiste :)
+  <header>
+    <h2>Ibnu Afdel</h2>
+    <div class="hamburger" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html" class="active">About</a>
+    </nav>
+  </header>
 
-     <a class="backButton" href="index.html">Back</a>
+  <section class="about">
+    <div class="about-content">
+      <h1>About Me</h1>
+      <p>
+        Hello! I’m <strong>Ibnu Afdel</strong>, a passionate Laravel developer with a deep love for building intuitive and efficient web applications. Leveraging the TALL stack, I craft modern solutions that blend technology with creativity.
+      </p>
+      <p>
+        My journey in development began with a simple curiosity for technology and has since evolved into a career dedicated to delivering impactful projects. From designing seamless user interfaces to optimizing backend processes, I strive to create applications that not only function flawlessly but also resonate with users.
+      </p>
+      <p>
+        When I’m not coding, you’ll find me exploring new tools, contributing to open-source projects, or delving into the latest trends in web development. Collaboration, innovation, and growth are the principles that drive me forward.
+      </p>
+      <p>
+        Let’s connect and create something extraordinary together! (AI generated time..)
+      </p>
+    </div>
+    <div class="about-image">
+      <!-- <img src="img/about-image.jpg" alt="About Me" /> -->
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 IbnuAfdel Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

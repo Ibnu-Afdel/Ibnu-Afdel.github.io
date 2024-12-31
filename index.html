@@ -1,46 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IbnuAfdel</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-
-    <header class="header">
-        <div class="username">
-            <a href="index.html">IbnuAfdel</a>
-        </div>
-
-        <input type="checkbox" id="toggle" class="toggle">
-        <label for="toggle" class="toggle-button">&#9776;</label>
-
-        <nav class="headright">
-            <div class="resume">
-                <a href="AbubekerAfdel.pdf" target="_blank">Resume</a>
-            </div>
-            <div class="github">
-                <a href="https://github.com/Ibnu-Afdel" target="_blank">GitHub</a>
-            </div>
-            <div class="linkedin">
-                <a href="https://www.linkedin.com/in/abubeker-afdel-6362b52ab" target="_blank">LinkedIn</a>
-            </div>
-        </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ibnu Afdel | Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h2>Ibnu Afdel</h2>
+      <div class="hamburger" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+      </nav>
     </header>
 
-    <main>
-        <div class="maindiv">
-            <h1>
-                Introduction
-            </h1>
-            <p>
-                Hello, I'm Abubeker. I'm currently learning Laravel with the TALL stack 
-                and expanding my skills by diving into React, aiming to become a full-stack
-                 developer. This page is a work in progress, but for now, feel free to join 
-                 my <a href="https://t.me/IbnuAfdelDevDiary" target="_blank">Telegram channel</a> to follow my journey and daily updates.
-            </p>
+    <section class="intro">
+      <div>
+        <div class="social-links">
+            <a href="https://linkedin.com" target="_blank" title="LinkedIn">
+              <img src="img/linkden.png" alt="LinkedIn" class="social-icon" />
+            </a>
+            <a href="https://github.com" target="_blank" title="GitHub">
+              <img src="img/github2.png" alt="GitHub" class="social-icon" />
+            </a>
+            <a href="https://t.me" target="_blank" title="Telegram">
+              <img src="img/telegram.png" alt="Telegram" class="social-icon" />
+            </a>
+          </div>
+          
+          
+        <h1>Hello, I’m Abubeker Afdel</h1>
+        <p>
+          A Laravel developer proficient in the TALL stack. Crafting modern web
+          applications with creativity and precision.
+        </p>
+      </div>
+      <div class="profile-card">
+        <!-- <img src="img/your-image.jpg" alt="Your Profile" class="profile-image" /> -->
+        <h3>Ibnu Afdel</h3>
+        <p>Laravel Developer | TALL Stack Enthusiast</p>
+        <!-- <a href="#about" class="button">Learn More</a> -->
+      </div>
+    </section>
+
+    <h3 class="project-topic">My Tech Stacks</h3>
+
+    <section class="tech-carousel">
+        <div class="carousel-card">
+          <div class="carousel">
+            <img src="img/laravel.png" alt="GitHub" class="carousel-item" />
+            <img src="img/livewire.png" alt="LinkedIn" class="carousel-item" />
+            <img src="img/tailwindcss.jpeg" alt="Telegram" class="carousel-item" />
+            <img src="img/alpine.png" alt="Slack" class="carousel-item" />
+            <img src="img/python.png" alt="Slack" class="carousel-item" />
+            <img src="img/django.png" alt="Slack" class="carousel-item" />
+            <img src="img/javascript.png" alt="Slack" class="carousel-item" />
+            <img src="img/git.png" alt="Slack" class="carousel-item" />
+          </div>
         </div>
-    </main>
-</body>
+      </section>
+      
+      
+
+    <section class="project-carousel">
+      <div class="project-card">
+        <img src="img/Naxplore.jpeg" alt="Project 1" />
+        <h4>Naxplore</h4>
+        <p>Watch Astronomy picture of the day of your choice!</p>
+        <a href="https://ibnuafdel.me/assync-top/Naxplor/index.html" class="button">View Details</a>
+      </div>
+      <div class="project-card">
+        <img src="img/githubInfo.jpeg" alt="Project 2" />
+        <h4>GitHub Info</h4>
+        <p>Get Info about your GitHub account</p>
+        <a href="https://ibnuafdel.me/top-projects/github-info/" class="button">View Details</a>
+      </div>
+      <div class="project-card">
+        <img src='img/tictactoe.jpeg' alt="Project 3" />
+        <h4>Tic Tac Toe</h4>
+        <p>Tic Tac Toe Game</p>
+        <a href="https://ibnuafdel.me/top-projects/tic_tac_toc_project/index.html" class="button">View Details</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 IbnuAfdel Portfolio</p>
+    </footer>
+
+    <script src="script.js">
+    </script>
+  </body>
 </html>
