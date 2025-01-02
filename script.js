@@ -3,6 +3,13 @@ function toggleMenu() {
     nav.classList.toggle("open");
   }
 
+  document.querySelectorAll('nav a').forEach(link => {
+    if (link.href === window.location.href) {
+      link.classList.add('active');
+    }
+  });
+  
+
   const carousel = document.querySelector('.carousel');
   const carouselItems = Array.from(carousel.children);
   

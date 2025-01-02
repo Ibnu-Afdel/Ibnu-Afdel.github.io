@@ -354,6 +354,83 @@ p {
   .site-footer .footer-social-icon:hover {
     filter: grayscale(0%);
   }
+
+
+  .about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+  }
+  
+  .about-content {
+    color: var(--text-color);
+    font-size: 1.2rem;
+  }
+  
+  .about-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-content p {
+    margin: 1rem 0;
+    line-height: 1.8;
+  }
+  
+  .about-image {
+    text-align: center;
+  }
+  
+  .about-image img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  nav .active {
+    color: var(--accent-color);
+    font-weight: 600;
+  }
+
+  .all-projects-diagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .all-projects {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(82, 81, 81, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .all-projects:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .all-projects i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
+  
+  .project-topic {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
   
   
 
@@ -399,49 +476,9 @@ p {
         display: flex;
         flex-wrap: wrap
     }
+
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
-
-
-
-.about {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 4rem 2rem;
-  }
-  
-  .about-content {
-    color: var(--text-color);
-    font-size: 1.2rem;
-  }
-  
-  .about-content h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  .about-content p {
-    margin: 1rem 0;
-    line-height: 1.8;
-  }
-  
-  .about-image {
-    text-align: center;
-  }
-  
-  .about-image img {
-    width: 100%;
-    height: auto;
-    max-width: 400px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  nav .active {
-    color: var(--accent-color);
-    font-weight: 600;
-  }
-  
